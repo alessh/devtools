@@ -24,7 +24,7 @@ vsce package
 Under VSCode type <code>type CRTL + SHIFT + P</code> and search for:
 
 ```
-Extensions: Install from VSXI... 
+Extensions: Install from VSIX... 
 ```
 
 Open file <code>ReactSnippets-1.2.1.vsix</code> under <code>vscode-react</code> folder and reload to take effect.
