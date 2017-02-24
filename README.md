@@ -29,3 +29,4 @@ Extensions: Install from VSXI...
 
 Open file <code>ReactSnippets-1.2.1.vsix</code> under <code>vscode-react</code> folder and reload to take effect.
 
+More about Publishing Tool of VSCode Extensions can be found [here](https://code.visualstudio.com/docs/tools/vscecli) and [here](https://code.visualstudio.com/docs/customization/themes) for customize color themes.
