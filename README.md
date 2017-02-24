@@ -1,10 +1,31 @@
 # devtools
-My personal developer tools
+Setup environment for my personal development tools
 
 ##Code Editor
 
-###02.24.2017
+02.24.2017 - Today i'm start using [Visual Studio Code](https://code.visualstudio.com) in replacement to Sublime Text, with [Monokai Dark Soda](https://marketplace.visualstudio.com/items?itemName=AdamCaviness.theme-monokai-dark-soda) color, also a customized [React Code Snippet](https://github.com/alessh/vscode-react).
 
-Today i'm start using Visual Studio Code in replacement to Sublime Text, with [https://marketplace.visualstudio.com/items?itemName=AdamCaviness.theme-monokai-dark-soda](Monokai Dark Soda) color 
+###Install Monokai Color Theme
 
-Also using a custom React [https://github.com/alessh/vscode-react](Code Snippet)
+```
+Visual Studio Code -> File -> Preferences -> Color Theme -> Find more in Marketplace...
+```
+Search for Monokai Dark Soda and install it, them reload VSCode to take effect.
+
+###Install React Code Snippet
+
+```
+npm install -g vsce
+git clone https://github.com/alessh/vscode-react.git
+cd vscode-react
+vsce package
+```
+
+Under VSCode type <code>type CRTL + P</code> and search for:
+
+```
+Extensions: Install from VSXI... 
+```
+
+Open file <code>ReactSnippets-1.2.1.vsix</code> under <code>vscode-react</code> folder and reload to take effect.
+
